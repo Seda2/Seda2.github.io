@@ -1,0 +1,112 @@
+/*Navbar Style Section*/
+#mainNav{
+    background-color: #2d545e;
+}
+.nav-link {
+    color:white;
+    transition: 0.2s ease-in all;
+}
+.nav-link:hover{
+    color:#e1b382;
+}
+
+.nav-link, .navbar-brand {
+    font-size: 1.3rem !important;
+    color: white !important;
+    font-weight: bold;
+}
+/*First Page Style Section*/
+
+#FirstPage {
+    background-color: #e1b382;
+    padding-top: 6rem;
+}
+
+@keyframes scale {
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+        transform:scale(1);
+    }
+  }
+#HomeImage{
+    animation-name:scale;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+/*About Page Style Section*/
+#AboutPage {
+    background-color: #e1b382;
+    padding-top: 6rem;
+}
+
+#AboutContent{
+    font-size: large;
+    color: black;
+    line-height: 2rem;
+}
+
+#Button a{
+    color:#2d545e !important;
+}
+
+/*Contact Page Style Section*/
+#ContactPage {
+    background-color: #e1b382;
+    padding-top: 6rem;
+}
+
+#Footer {
+    background-color: #2d545e;
+    color:#e1b382;
+}
+
+#Footer a{
+    color: #e1b382 !important;
+}
+
+#Copyright {
+    background-color: #12343b;
+}
+#SendButton{
+    background-color: #2d545e !important;
+}
+#SendButton:hover{
+    background-color: #12343b !important;
+}
+
+#name, #surname, #email, #phone {
+    background-color: #e1b382 !important;
+    
+    
+}
+input:focus, textarea:focus {   
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/*General Style Section*/
+h1, #AboutPage h1, #carousel h1, #ContactPage h1, #FirstPage p{
+    color:#2d545e !important;
+}
+
+/*Certificates Page Style Section*/
+
+#CertificatePage{
+    padding-top: 6rem;
+    background-color: #e1b382;
+}
+
+#carousel img{
+    width: 800px;
+    height:400px;
+}
+
+
+
+
+
