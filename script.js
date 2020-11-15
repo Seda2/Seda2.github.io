@@ -50,8 +50,7 @@ function ResetGame(){
 
 
 function StartGame(){
-  $(".cell").click(function() 
-  { 
+  $(".cell").click(function() { 
     
     $(this).append(player);
     $(this).unbind();
@@ -119,7 +118,7 @@ function StartGame(){
       defense(WinningOptions, Massive, indexes_X, indexes_of_Empty)
       logic(LogicOptions, Massive, indexes_X, indexes_of_Empty, indexes_O)
       draw()
-      
+      document.querySelector('#StartButton').disabled=true;    
   });
 }
 
